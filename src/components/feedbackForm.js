@@ -53,10 +53,12 @@ const FeedbackForm = () => {
             <label>Movie:</label>
                 <Field as="select" name="movie">
                     <option value="">Select Movie</option>
-                    <option value=" The Wild Robot">Tourist Family</option>
-                    <option value=" Ratatouille">Love marriage</option>
-                    <option value="The Lion King">Retro</option>
-                    <option value="Finding Nemo">DIA</option>
+                    <option value=" Tourist Family">Tourist Family</option>
+                    <option value="Love marriage">Love marriage</option>
+                    <option value="Retro">Retro</option>
+                    <option value="DIA">DIA</option>
+                      <option value="ELEVAN">ELEVAN</option>
+
                 </Field>
                 <ErrorMessage name="movie" component="div" className="error"/>
         </div>
